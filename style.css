@@ -2,7 +2,33 @@
 *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Inter,Arial,sans-serif;color:var(--ink);background:#fff;line-height:1.6}
 h1,h2,h3{font-family:Georgia,"Times New Roman",serif;line-height:1.1;margin:0}a{text-decoration:none;color:inherit}
 .container{width:min(1160px,92%);margin:auto}.nav{height:78px;border-bottom:1px solid var(--line);display:flex;align-items:center;justify-content:space-between;background:#fff;position:sticky;top:0;z-index:20}
-.brand{display:flex;align-items:center;gap:12px}.mark{font-family:Georgia;font-size:42px;color:var(--gold);line-height:1}.brand strong{display:block;font-family:Georgia;font-size:20px;letter-spacing:.04em}.brand small{display:block;font-size:9px;letter-spacing:.25em;color:#5f6875}
+
+.brand{
+    display:flex;
+    align-items:center;
+}
+
+.brand > span{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+.brand strong{
+    display:block;
+    font-family:Georgia;
+    font-size:20px;
+    letter-spacing:.04em;
+}
+
+.brand small{
+    display:block;
+    font-size:9px;
+    letter-spacing:.25em;
+    color:#5f6875;
+    margin-top:2px;
+}
+
 .links{display:flex;gap:34px;font-size:14px}.links a:hover{color:var(--gold)}.btn{display:inline-flex;align-items:center;justify-content:center;border:0;border-radius:4px;padding:14px 24px;font-weight:700;cursor:pointer;background:var(--navy);color:white}.btn:hover{background:var(--navy2)}.btn.outline{background:white;color:var(--navy);border:1px solid var(--navy)}
 .hero{background:linear-gradient(90deg,#fff 0%,#fff 46%,#f2f5f8 100%);min-height:600px;display:flex;align-items:center}.hero-grid{display:grid;grid-template-columns:1fr 1fr;gap:30px;align-items:center}.eyebrow{display:inline-block;border:1px solid #dfc59f;color:#91642f;padding:7px 13px;border-radius:4px;font-size:12px;font-weight:700;letter-spacing:.08em;margin-bottom:22px}.hero h1{font-size:58px;color:var(--navy);max-width:590px}.hero p{font-size:18px;color:#475569;max-width:520px}.actions{display:flex;gap:14px;margin-top:26px}.portrait{min-height:520px;background:linear-gradient(135deg,#dce4ec,#f8fafc);border-radius:2px;position:relative;overflow:hidden;display:flex;align-items:end;justify-content:center}.portrait img{
     width:100%;
