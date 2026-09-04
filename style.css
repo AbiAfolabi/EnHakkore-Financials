@@ -40,13 +40,13 @@ h1,h2,h3{font-family:Georgia,"Times New Roman",serif;line-height:1.1;margin:0}a{
 section{padding:75px 0}.section-title{font-size:36px;color:var(--navy);margin-bottom:30px}.services{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.service{border:1px solid var(--line);padding:27px;min-height:190px}.icon{font-size:28px;color:var(--gold);margin-bottom:15px}
 .service h3{
     font-family:Inter,Arial;
-    font-size:18px;
-    margin-bottom:10px;
+    font-size:20px;
+    margin-bottom:12px;
 }
 
 .service p{
     color:var(--muted);
-    font-size:16px;
+    font-size:18px;
     line-height:1.6;
     margin:0;
 }
